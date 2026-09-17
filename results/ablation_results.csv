@@ -1,0 +1,8 @@
+config,branches,auc,accuracy
+1_structural_only,structural,0.839790951111111,0.7533333333333333
+2_visual_only,visual,0.9303391644444445,0.8493333333333334
+3_lexical_only,lexical,0.99869728,0.9980666666666667
+4_structural_visual,structural+visual,0.942944071111111,0.8656
+5_structural_lexical,structural+lexical,0.99845792,0.9978
+6_visual_lexical,visual+lexical,0.9982222400000001,0.9974
+7_all_fused,structural+visual+lexical,0.998466791111111,0.9974
