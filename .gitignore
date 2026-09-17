@@ -1,0 +1,68 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Large data files
+data/qr_images/
+data/kaitholikkal_eval/
+data/philus_unseen_5k_eval/
+data/features_with_evasion/
+*.npy
+*.npz
+
+# Large models (keep only small ones)
+models/**/*.cbm
+models/**/*.pth
+models/**/*.pt
+models/**/*.h5
+
+# Logs
+*.log
+nohup.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Keep result CSVs and small scripts
+!results/*.csv
+!scripts/*.py
+
+
+#data
+./data/features/visual.npy
+./data/features/structural.csv
+./data/features/fused_features.npy
+./data/features/split_80_20.npz
+./data/features/split_70_30.npz
+./data/features/lexical.npy
+./data/size_exp/size_2000/lexical.npy
+./data/size_exp/size_6000/visual.npy
+./data/size_exp/size_6000/lexical.npy
+./data/size_exp/size_1000/lexical.npy
+./data/size_exp/size_20000/visual.npy
+./data/size_exp/size_20000/lexical.npy
+./data/size_exp/size_50000/visual.npy
+./data/size_exp/size_50000/structural.csv
+./data/size_exp/size_50000/lexical.npy
+./data/urls/raw/PhiUSIIL_Phishing_URL_Dataset.csv
+./data/baseline_replication/size_100000/structural.csv
+./data/baseline_replication/size_50000/structural.csv
