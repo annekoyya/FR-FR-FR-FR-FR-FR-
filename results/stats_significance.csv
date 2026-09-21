@@ -1,0 +1,22 @@
+comparison,auc_diff,bootstrap_ci_lower,bootstrap_ci_upper,bootstrap_p_diff_le_zero,permutation_p_value,significant_at_0.05
+7_all_fused vs 1_structural_only,0.15867584,0.15279611108068458,0.16475483908035352,0.0,0.0,True
+1_structural_only vs 2_visual_only,-0.09054821333333352,,,,0.0,True
+1_structural_only vs 3_lexical_only,-0.158906328888889,,,,0.0,True
+1_structural_only vs 4_structural_visual,-0.10315311999999999,,,,0.0,True
+1_structural_only vs 5_structural_lexical,-0.15866696888888898,,,,0.0,True
+1_structural_only vs 6_visual_lexical,-0.15843128888888913,,,,0.0,True
+2_visual_only vs 3_lexical_only,-0.06835811555555549,,,,0.0,True
+2_visual_only vs 4_structural_visual,-0.012604906666666471,,,,0.0,True
+2_visual_only vs 5_structural_lexical,-0.06811875555555547,,,,0.0,True
+2_visual_only vs 6_visual_lexical,-0.06788307555555562,,,,0.0,True
+2_visual_only vs 7_all_fused,-0.0681276266666665,,,,0.0,True
+3_lexical_only vs 4_structural_visual,0.055753208888889016,,,,0.0,True
+3_lexical_only vs 5_structural_lexical,0.00023936000000002178,,,,0.2535,False
+3_lexical_only vs 6_visual_lexical,0.0004750399999998711,,,,0.1895,False
+3_lexical_only vs 7_all_fused,0.0002304888888889911,,,,0.488,False
+4_structural_visual vs 5_structural_lexical,-0.055513848888888995,,,,0.0,True
+4_structural_visual vs 6_visual_lexical,-0.055278168888889145,,,,0.0,True
+4_structural_visual vs 7_all_fused,-0.055522720000000025,,,,0.0,True
+5_structural_lexical vs 6_visual_lexical,0.00023567999999984934,,,,0.4665,False
+5_structural_lexical vs 7_all_fused,-8.871111111030672e-06,,,,0.9825,False
+6_visual_lexical vs 7_all_fused,-0.00024455111111088,,,,0.051,False
