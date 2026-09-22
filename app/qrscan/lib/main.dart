@@ -5,7 +5,7 @@ import 'package:mobile_scanner/mobile_scanner.dart';
 
 // CHANGE THIS to your laptop's LAN IP (phone and laptop on the same Wi-Fi).
 // Android emulator: http://10.0.2.2:8000
-const String kApiBase = 'http://192.168.1.10:8000';
+const String kApiBase = 'http://192.168.254.101:8000';
 
 void main() => runApp(const QuishApp());
 
